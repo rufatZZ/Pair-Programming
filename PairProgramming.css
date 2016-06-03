@@ -1,0 +1,622 @@
+a {
+    color: white;
+}
+
+.padding-50 {
+    padding: 50px;
+}
+
+.padding-10 {
+    padding: 10px !important;
+}
+
+.width-100 {
+    width: 100%;
+    height: 500px;
+}
+
+
+#home {
+    width: 100%;
+    background-image: url("../img/bg1.jpg");
+    background-color: rgba(0,0,0,.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    height: 500px;
+    padding: 20px;
+}
+
+#home .logo {
+    width: 150px;
+}
+
+
+#home .social-bar ul {
+    display: inline-block;
+}
+
+#home .social-bar ul li {
+    list-style-type: none;
+    display: inline-block !important;
+    padding: 15px 10px;
+}
+
+
+#home .contactBtn {
+    border-radius: 3px !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+#home .contactBtn:hover {
+    color: black !important;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#home .contactBtn i {
+    color: white;
+    margin: 0px 5px;
+
+}
+
+#home .contactBtn i:hover {
+    color: black;
+}
+
+
+#home .social-bar button .btn-default:hover {
+    color: black;
+    font-weight: 400;
+}
+
+
+#home .social-bar button i:hover {
+    color: black;
+}
+
+#home .study .btn {
+    padding: 1px 10px !important;
+    border-radius: 0;
+}
+
+#home .study .case-study {
+    color: black;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+#home .coverBtn {
+    background-color: transparent !important;
+    color: white !important;
+    border-radius: 3px;
+    border-color: white !important;
+    transition: 0.5s;
+}
+
+#home .coverBtn:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s;
+}
+
+/* home end*/
+
+
+
+
+
+
+
+
+
+
+
+/*===Work start===*/
+
+#work img {
+    margin-top: 100px;
+    width: 700px;
+}
+
+#work .about-work {
+    margin-top: 120px;
+}
+
+#work h1 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#work .about-work p {
+    color: black;
+}
+
+p.stP {
+    line-height: 30px;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+p.ndP {
+    margin-top: 20px;
+    opacity: .6;
+    font-size: 16px;
+}
+
+.aboutBtn {
+    border-color: black !important;
+    border-radius: 3px !important;
+    transition: 0.5s;
+}
+
+.aboutBtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/*===Work end===*/
+
+
+
+/*=== services start ===*/
+
+#services {
+    width: 100%;
+    background-color: #f4f5f5;
+    height: 500px;
+}
+
+#services h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#services p {
+    line-height: 30px;
+    opacity: .9;
+    font-size: 20px;
+}
+
+#services .service-box {
+    position: relative;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+#services .service-box i {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#services .service-box h4 {
+    color: black;
+    opacity: .7;
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#services .service-box p {
+    font-size: 13px;
+    text-align: left;
+    display: block;
+    margin: 10px 20px;
+    opacity: .5;
+    overflow: hidden;
+}
+/*=== services end===*/
+
+
+
+/*============================ourWork start========================*/
+
+.bigImg, .smallImgs1 {
+	overflow: hidden;	
+	background: black;
+	position: relative;
+	margin-bottom: 20px;
+}
+.bigImg{
+
+	width: 100%;
+	height: 75%;
+
+}
+.smallImgs1{
+	width: 100%;
+	height: 36%;	
+}
+/*=============Hover olacaq yer======================*/
+.bigImg img{													
+	/*position: absolute;*/
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition:0.350s;	
+}
+.bigImg img:hover{
+	opacity: 0.3;
+	left:-30px;
+	width: 110%;
+	height: 110%;	
+}
+.smallImgs1 img:hover{
+	opacity: 0.3;
+	width: 130%;
+	height: 130%;
+	left:-45px;
+}
+.smallImgs1:hover .hidew{
+	display: block;
+}
+.hidew{
+	top: 20px;
+	left: 10px;
+	color: white;
+	z-index: 999;
+	position: absolute;
+}
+.hidew div{	
+	font-size: 30px;
+	background: #337ab7;	
+	display: inline-block;
+	padding: 10px 15px;
+	display: none;
+}
+
+/*=============Hover olacaq yer======================*/
+.smallImgs1 img{
+	position: relative;
+	left: 0;
+	width: 103%;
+	height: 100%;
+	transition:0.350s;		
+	}
+.ourwrkTxt h4{
+	font-size: 15px;
+}
+.crDrector{
+	padding: 25px;
+	padding-right: 50px;
+	border: 1px lightgray solid;
+	width: 70%;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	margin-bottom: 20px;
+}
+.crDrectorImg{
+	margin-bottom: 10px;
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+}
+
+.crDrectorAbout{
+	color: gray;
+	line-height: 17px;
+}
+.opDolor{
+	font-size: 16px;
+	font-weight: bold;
+}
+.drect{
+	color: gray;
+	font-size: 12px;
+}
+.explorebtn{
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background: none;
+	border: 1px solid black;
+	transition:0.350s;
+}
+.explorebtn:hover{
+	color: white;
+	background: black;
+}
+
+/*============================ourWork end========================*/
+
+
+
+/*========customer start==============*/
+.customerPic {
+	height: 170px;
+	position: relative;
+}
+
+.customerPic img{
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	position: absolute;
+}
+
+.customerInfo {
+	width: 250px;
+	height: 170px;
+	margin-left: 20px;
+}
+
+.customerHead{
+	margin-top: 50px; 
+	margin-bottom: 40px;
+	text-align:center
+}
+
+#customer {
+	background-color: #F4F5F5;
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+
+#TestHead {
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+#TestHead p {
+	font-size: 18px;
+}
+
+.logo{
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	border: 1px solid #C4C5C5;
+	opacity: 0.5;
+}
+
+.logoPic{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+} 
+/*===========customer end===============*/
+
+/*===== video start========*/
+#video {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+/*======== video end ============*/
+
+
+/*======team start=======*/
+
+/*=======team end===========*/
+
+
+
+
+/*==========blog start============*/
+
+#blog{
+ 	background-color: #F4F5F5;
+}
+
+.blogRow{
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ 	background-color: #F4F5F5; 
+}
+
+.blogLeft {
+ 	width: 285px;
+ 	height: auto;
+ }
+
+#photoOwn{
+ 	width: 285px;
+ 	height: 233px;
+
+ }
+
+ #photoDown {
+ 	padding: 15px;
+ 	width: 285px;
+ 	height: 233px; 
+ 	border: 1px solid black; 
+ }
+
+span {
+	background-color: black;
+	color:white;
+	padding: 5px;
+}
+
+#photoDown a{
+	text-decoration: none;
+	color: black;
+	font-weight: 200px;
+}
+
+#photoDown p{
+	color: #7C7E83;
+}
+
+#leftButton {
+	margin-top: 30px;
+	margin-bottom:30px; 
+	padding: 5px;
+	background: none;
+	border:1px solid black;
+	border-radius: 3px;
+	transition: 0.2s;
+}
+#leftButton:hover {
+	background: black;
+	color:white;
+	transition: 0.2s;
+}
+
+
+.blogInfo {
+	width:600px;
+	height: 130px;
+	margin-left: 30px; 
+	float: right;
+}
+
+.blogInfo a {
+	text-decoration: none;
+	color: black;
+}
+
+#blogInfo {
+	background: none;
+	border:1px solid black;
+	border-radius: 3px;
+	transition: 0.2s;
+}
+
+#blogInfo:hover  {
+	background: black;
+	color:white;
+	transition: 0.2s;
+}
+
+div.blogPic {
+	width: 90px;
+	height: 130px;
+	border: 1px solid #C4C5C5;
+	padding: 10px;
+	float: left;
+}
+
+.blogRight {
+	margin-top:10px;
+	margin-bottom: 30px;
+}
+
+.faicon{
+	margin-left: 13px;
+	color: #C4C5C5;
+}
+
+.blogDate {
+	color: #C4C5C5;    
+	margin-top: -15px;
+    margin-left: 13px;
+}
+
+/*========map iframe start=========*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:500px;
+    position:relative;
+    margin: 0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:500px;
+    width:100%;
+    position:absolute;
+    margin: 0px;
+}
+/*=========map iframe end==============*/
+
+
+
+
+
+
+/*==========footer start==========*/
+*{
+	list-style-type: none;
+}
+
+.footer{
+	background: #1F2229;
+	padding-top:160px;
+	padding-bottom: 140px;
+}
+.footer p{
+	color: #6D6F73;
+}
+.footer h1{
+	font-weight: bold;
+	font-size: 50px
+}
+.footer h1, .footer h3, .footer h4{
+	color: white;
+}
+.welove h1, .welove h4{
+	padding-bottom: 15px;
+	text-align: center;
+}
+.footer .contactus li{
+	display: inline-block;
+	border: 1px solid  #6D6F73;
+	border-radius: 3px;
+	margin:5px 5px 5px 0px;
+	padding: 8px 13px;
+}
+.footer .contactus li a {	
+	color: white;
+	font-size: 20px;
+}
+
+.contactus ul li:nth-child(3){
+	padding: 8px 10px;
+}
+
+.feedback{	
+	padding-top: 23px;
+	padding-bottom: 80px;
+}
+.feedback input, .feedback textarea:focus{
+	outline: none;
+}
+.feedback input, .feedback textarea,.feedback button{
+	margin-bottom: 15px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 100%;
+	height: 45px;
+	background: none;
+	border: 1px solid #6D6F73;
+	color: white;
+}
+.feedback textarea{
+	height: 150px;
+}
+.feedback button{	
+	border: 1px solid white;
+}
+.feedback button:hover{
+	transition:0.450s;
+	background: white;
+	color: black;
+}
+
+.contactus li:hover {
+	transition:0.450s;
+	background: white;
+}
+
+.contactus li:hover a  {
+	transition:0s;
+	color: #1F2229;
+}
+.hr{
+	border-bottom: 1px solid #6D6F73;
+}
+.fromBy{
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+
+}
+
+
+/*=======footer end========*/
+
+
